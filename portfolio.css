@@ -1,0 +1,77 @@
+body,h1,h2,h3,h4,h5,h6 {
+font-family: "Lato", sans-serif
+}
+
+.w3-bar,h1,button {
+	font-family: "Montserrat", sans-serif
+
+}
+
+.fa-anchor,.fa-coffee {
+	font-size:200px
+	
+}
+
+#ticTacToe {
+	margin-left: 20px;
+	margin-top: 50px;
+	height: 200px;
+}
+ticTacToe:hover{
+	background-color: background-color: #8E8E8E;
+}
+
+#randomQuoteText {
+	margin-top: 50px;
+}
+
+#randomQuotePic{
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+#weatherApp {
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 50px;
+	border-radius: 15px;
+}
+.blur {
+  width: 110%;
+  height: 110%;
+}
+
+.blur img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.blur img:hover {
+  -webkit-filter: blur(2px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(2px);
+}
+
+#navBarName {
+	text-decoration: none;
+}
+
+#projectsTitle {
+	margin-top: -10px;
+}
+
+#ticTacToe {
+	border-radius: 15px;
+}
+
+#randomQuotePic {
+	border-radius: 15px;
+}
