@@ -10,7 +10,7 @@ function myFunction() {
 $("#navBarName").find("a").on("click", function(e) {
 	e.preventDefault();
 	var section = $(this).attr("href");
-	$("html body).animate({
+	$("html body").animate({
 		scrollTop: $(section).offset().top
 	});
 });
