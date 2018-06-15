@@ -37,51 +37,38 @@
 <!-- Header -->
 <header class="w3-container w3-indigo w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">Joshua Arnett</h1>
-  <p class="w3-xlarge">Front-end Web Developer <br>
-  FreeCodeCamp student</p>
+  <p class="w3-xlarge">Full Stack Web Developer<br>
 </header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container" id="projects">
   <div class="w3-content">
-    <div class="w3-twothird">
-      <h1 id="projectsTitle">Projects</h1>
-      <h5> Simon Game App</h5>
-      <p class="w3-text-grey">Interactive game that displays a random series of button flashes and the user has to click the sequence of buttons flashed in the correct order. If a button is pressed incorrectly the same sequence of buttons is replayed for the user to try again. If an incorrect button is pressed in strict mode the game restarts back at 0. If the user correctly clicks a sequence of 20 buttons a win message is displayed and the game restarts.</p>
+    <h1 id="projectsTitle">Projects</h1>
+    <hr>
+    <div class="w3-twothird w3-margin-top">
+      <h5><b> Schedulizer</b></h5>
+      <p class="w3-text-grey">
+        Full stack application built for a group project during the UCF Coding Bootcamp. This application was designed to help business owners create and schedule employee shifts and give the employees an easy way to view their schedules. Application includes full user authentication using passport, bcrypt for password encryption, node mailer for website updates, Owner/Manager/Admin accounts with different access privledges and many other features which can be viewed here: <a href="https://github.com/Kevin-Murtaugh/Schedulizer">Schedulizer Github</a>
+        <br><br>
+        View the deployed site at: <a href="https://ancient-earth-43897.herokuapp.com/">Schedulizer</a>
+      </p>
     </div>
-
     <div class="w3-third w3-center">
-    <a href="https://josha5.github.io/Simon_game/" class="blur" target="_blank"><img src="http://i66.tinypic.com/206lftg.png" id ="simonApp" alt="Picture of simon app."></a>
+    <a href="https://ancient-earth-43897.herokuapp.com/" class="blur" target="_blank"><img src="./assets/images/Schedulizer.png" id ="schedulizerApp" alt="Picture of simon app."></a>
     </div>
   </div>
   <div class="w3-content">
     <div class="w3-twothird" id="randomQuoteText">
-      <h5> Random Quote Generator App</h5>
-      <p class="w3-text-grey"></p>
+      <h5><b> MMA News Article Scraper</b></h5>
+      <p class="w3-text-grey">
+        Full stack MMA news article scraper that allows users to scrape articles from <a href="mmanews.com">mmanews</a>. Once the user clicks the scrape articles button, they are given a list of most recent news articles that can be added to their saved articles or delete articles they have already read. Each article comes with a short summary or you can read the full version with the link provided. <br>
+
+        View the deployed site here: <a href="https://josha5-mongoscraper.herokuapp.com/"> MMA News Scraper </a>
+      </p>
     </div>
 
     <div class="w3-third w3-center">
-    <a href="https://josha5.github.io/random_quote_generator/" class = "blur" target="_blank"><img src="http://i66.tinypic.com/28bwruo.jpg" id = "randomQuotePic" alt="picture of random quote app"></a>
-    </div>
-  </div>
-  <div class="w3-content">
-    <div class="w3-twothird" id="randomQuoteText">
-      <h5>Weather App API</h5>
-      <p class="w3-text-grey"> Weather App made using the wunderground API with geolocation.</p>
-    </div>
-
-    <div class="w3-third w3-center">
-    <a href="https://codepen.io/Josha5/full/MoOWLX/" class="blur" target="_blank"><img src="http://i64.tinypic.com/23usrqt.png"  id="weatherApp" alt="Picture of weather app."></a>
-    </div>
-  </div>
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h5>Twitch App API</h5>
-      <p class="w3-text-grey">This application displays a list of my favorite streamers using the twitch.tv api and 
-      shows the status of the streamers and what content they are currently streaming.</p>
-    </div>
-    <div class="w3-third w3-center">
-    <a href="https://josha5.github.io/Twitch_api/" target="_blank" class="blur"><img src="http://i68.tinypic.com/mlh30z.png" border="0" alt="Image and video hosting by TinyPic" id="twitchApp"></a>
+    <a href="https://josha5-mongoscraper.herokuapp.com/" class = "blur" target="_blank"><img src="./assets/images/NewsScraper.png" id = "randomQuotePic" alt="MMA news article scraper"></a>
     </div>
   </div>
 </div>
@@ -90,14 +77,33 @@
 <!-- Second Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="about">
   <div class="w3-content">
-    <div class="w3-third w3-center">
+    <div class="w3-third">
     <h2>Skills:</h2>
-      <p i class="w3-text-black"><b>HTML5 <br>CSS3<br>Javascript<br>Jquery<br>React<br>Git<br>GitHub</b></p>
+      <p i class="w3-text-black">
+        <b>
+          HTML5 <br>
+          CSS3  <br>
+          Javascript  <br>
+          Jquery<br>
+          React<br>
+          Bootstrap <br>
+          Heroku <br>
+          Git<br>
+          Github <br>
+          MySQL <br>
+          MongoDB <br>
+          Node JS <br>
+          Express JS <br>
+          Authentication <br>
+          APIs <br>
+          AJAX <br>
+        </b>
+      </p>
     </div>
 
     <div class="w3-twothird">
       <h1>About me</h1>
-      <h5 class="w3-padding-32">I am currently a student at the University of Central Florida studying medical laboratory science, and I am also a student at FreeCodeCamp studying full stack web development. Since discovering FreeCodeCamp I have grown a passion for software development, and as of 11/26/17 have obtained my Front-end development certificate which can be verified <a href="https://www.freecodecamp.org/josha5/front-end-certification" target="_blank">here</a>. I love new challenges, am a critical thinker, strong self learner, and will take what ever steps necessary to learn new technologies if needed as quickly and efficiently as possible.</h5>
+      <h5 class="w3-padding-32">I am a recent graduate of the University of Central Florida Coding Bootcamp where I studied full stack web development. Since discovering web development I have grown a passionate for it and love the daily challenges that come with it. I am a strong self learner, critical thinker, and will take what ever steps necessary to learn new technologies if needed as quickly and efficiently as possible.</h5>
 
     </div>
   </div>
