@@ -19,6 +19,12 @@ font-family: "Lato", sans-serif
 	border-radius: 15px;
 }
 
+#NytReactPic {
+	margin-left: 20px;
+	margin-top: 50px;
+	height: 200px;
+	border-radius: 15px;
+}
 
 #randomQuoteText {
 	margin-top: 50px;
